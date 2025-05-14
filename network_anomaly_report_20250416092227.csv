@@ -1,0 +1,96 @@
+Host,Interface,"Avg Inbound MB","Max Inbound MB",Time,Status
+Galaxy-CRM,"Interface enP14182s1: Inbound packets discarded",0.00,0,"2025-04-15 22:30:00",Normal
+Galaxy-CRM,"Interface enP14182s1: Inbound packets with errors",0.00,0,"2025-04-15 22:30:00",Normal
+Galaxy-CRM,"Interface enP14182s1: Bits received",30775.93,100842,"2025-04-15 11:30:00",Anomaly
+Galaxy-CRM,"Interface enP22157s1: Inbound packets discarded",0.00,0,"2025-04-13 22:30:00",Normal
+Galaxy-CRM,"Interface enP22157s1: Inbound packets with errors",0.00,0,"2025-04-13 22:30:00",Normal
+Galaxy-CRM,"Interface enP22157s1: Bits received",16350.40,17260,"2025-04-13 12:30:00",Normal
+Galaxy-CRM,"Interface enP24505s1: Inbound packets discarded",0.00,0,"2025-04-04 22:30:00",Normal
+Galaxy-CRM,"Interface enP24505s1: Inbound packets with errors",0.00,0,"2025-04-04 22:30:00",Normal
+Galaxy-CRM,"Interface enP24505s1: Bits received",36608.00,91451,"2025-04-04 17:30:00",Anomaly
+Galaxy-CRM,"Interface enP26434s1: Inbound packets discarded",0.00,0,"2025-04-03 22:30:00",Normal
+Galaxy-CRM,"Interface enP26434s1: Inbound packets with errors",0.00,0,"2025-04-03 22:30:00",Normal
+Galaxy-CRM,"Interface enP26434s1: Bits received",37143.00,80014,"2025-04-03 15:30:00",Anomaly
+Galaxy-CRM,"Interface enP28574s1: Inbound packets discarded",0.00,0,"2025-04-06 22:30:00",Normal
+Galaxy-CRM,"Interface enP28574s1: Inbound packets with errors",0.00,0,"2025-04-06 22:30:00",Normal
+Galaxy-CRM,"Interface enP28574s1: Bits received",16641.60,18534,"2025-04-06 20:30:00",Normal
+Galaxy-CRM,"Interface enP29354s1: Inbound packets discarded",0.00,0,"2025-04-01 22:30:00",Normal
+Galaxy-CRM,"Interface enP29354s1: Inbound packets with errors",0.00,0,"2025-04-01 22:30:00",Normal
+Galaxy-CRM,"Interface enP29354s1: Bits received",109448.27,791661,"2025-04-01 16:30:00",Anomaly
+Galaxy-CRM,"Interface enP36559s1: Inbound packets discarded",0.00,0,"2025-04-12 22:30:00",Normal
+Galaxy-CRM,"Interface enP36559s1: Inbound packets with errors",0.00,0,"2025-04-12 22:30:00",Normal
+Galaxy-CRM,"Interface enP36559s1: Bits received",18067.80,26738,"2025-04-12 10:30:00",Normal
+Galaxy-CRM,"Interface enP39728s1: Inbound packets discarded",0.00,0,"2025-04-14 22:30:00",Normal
+Galaxy-CRM,"Interface enP39728s1: Inbound packets with errors",0.00,0,"2025-04-14 22:30:00",Normal
+Galaxy-CRM,"Interface enP39728s1: Bits received",30166.53,59936,"2025-04-14 15:30:00",Anomaly
+Galaxy-CRM,"Interface enP41318s1: Inbound packets discarded",0.00,0,"2025-04-08 22:30:00",Normal
+Galaxy-CRM,"Interface enP41318s1: Inbound packets with errors",0.00,0,"2025-04-08 22:30:00",Normal
+Galaxy-CRM,"Interface enP41318s1: Bits received",77844.47,631720,"2025-04-08 15:30:00",Anomaly
+Galaxy-CRM,"Interface enP42623s1: Inbound packets discarded",0.00,0,"2025-04-10 22:30:00",Normal
+Galaxy-CRM,"Interface enP42623s1: Inbound packets with errors",0.00,0,"2025-04-10 22:30:00",Normal
+Galaxy-CRM,"Interface enP42623s1: Bits received",81794.33,361993,"2025-04-10 12:30:00",Anomaly
+Galaxy-CRM,"Interface enP43526s1: Inbound packets discarded",0.00,0,"2025-04-07 22:30:00",Normal
+Galaxy-CRM,"Interface enP43526s1: Inbound packets with errors",0.00,0,"2025-04-07 22:30:00",Normal
+Galaxy-CRM,"Interface enP43526s1: Bits received",65951.27,319585,"2025-04-07 12:30:00",Anomaly
+Galaxy-CRM,"Interface enP44307s1: Inbound packets discarded",0.00,0,"2025-04-05 22:30:00",Normal
+Galaxy-CRM,"Interface enP44307s1: Inbound packets with errors",0.00,0,"2025-04-05 22:30:00",Normal
+Galaxy-CRM,"Interface enP44307s1: Bits received",36548.87,89205,"2025-04-05 16:30:00",Anomaly
+Galaxy-CRM,"Interface enP49788s1: Inbound packets discarded",0.00,0,"2025-04-11 22:30:00",Normal
+Galaxy-CRM,"Interface enP49788s1: Inbound packets with errors",0.00,0,"2025-04-11 22:30:00",Normal
+Galaxy-CRM,"Interface enP49788s1: Bits received",31126.53,123526,"2025-04-11 17:30:00",Anomaly
+Galaxy-CRM,"Interface enP54995s1: Inbound packets discarded",0.00,0,"2025-04-16 11:30:00",Normal
+Galaxy-CRM,"Interface enP54995s1: Inbound packets with errors",0.00,0,"2025-04-16 11:30:00",Normal
+Galaxy-CRM,"Interface enP54995s1: Bits received",22782.00,29442,"2025-04-16 11:30:00",Normal
+Galaxy-CRM,"Interface enP57106s1: Inbound packets discarded",0.00,0,"2025-04-09 22:30:00",Normal
+Galaxy-CRM,"Interface enP57106s1: Inbound packets with errors",0.00,0,"2025-04-09 22:30:00",Normal
+Galaxy-CRM,"Interface enP57106s1: Bits received",62849.53,297335,"2025-04-09 16:30:00",Anomaly
+Galaxy-CRM,"Interface enP6224s1: Inbound packets discarded",0.00,0,"2025-04-02 22:30:00",Normal
+Galaxy-CRM,"Interface enP6224s1: Inbound packets with errors",0.00,0,"2025-04-02 22:30:00",Normal
+Galaxy-CRM,"Interface enP6224s1: Bits received",29187.73,56502,"2025-04-02 17:30:00",Anomaly
+zabbixdemo.goapl.com,"Interface ens5: Inbound packets discarded",0.00,0,"2025-04-16 11:30:00",Normal
+zabbixdemo.goapl.com,"Interface ens5: Inbound packets with errors",0.00,0,"2025-04-16 11:30:00",Normal
+zabbixdemo.goapl.com,"Interface ens5: Bits received",149802.21,557423,"2025-04-10 08:30:00",Anomaly
+GalaxyCloud-Internal_DNS_SRV,"Interface eth0: Inbound packets discarded",0.00,0,"2025-04-16 11:30:00",Normal
+galaxy-zabbix-srv-cloud,"Interface eth0: Inbound packets discarded",0.00,0,"2025-04-16 11:30:00",Normal
+Galaxy-CRM,"Interface eth0: Inbound packets discarded",0.00,0,"2025-04-16 11:30:00",Normal
+Galaxytime,"Interface eth0: Inbound packets discarded",0.00,0,"2025-04-16 11:30:00",Normal
+GalaxyCloud-Internal_DNS_SRV,"Interface eth0: Inbound packets with errors",0.00,0,"2025-04-16 11:30:00",Normal
+galaxy-zabbix-srv-cloud,"Interface eth0: Inbound packets with errors",0.00,0,"2025-04-16 11:30:00",Normal
+Galaxy-CRM,"Interface eth0: Inbound packets with errors",0.00,0,"2025-04-16 11:30:00",Normal
+Galaxytime,"Interface eth0: Inbound packets with errors",0.00,0,"2025-04-16 11:30:00",Normal
+GalaxyCloud-Internal_DNS_SRV,"Interface eth0: Bits received",7468.47,129866,"2025-04-08 06:30:00",Anomaly
+galaxy-zabbix-srv-cloud,"Interface eth0: Bits received",94666.43,3162336,"2025-04-10 06:30:00",Anomaly
+Galaxy-CRM,"Interface eth0: Bits received",43302.30,687706,"2025-04-01 16:30:00",Anomaly
+Galaxytime,"Interface eth0: Bits received",15140.43,188676,"2025-04-08 16:30:00",Anomaly
+tallyserver2019,"Interface Microsoft Hyper-V Network Adapter(Ethernet): Inbound packets discarded",0.00,0,"2025-04-16 11:30:00",Normal
+tallyserver2019,"Interface Microsoft Hyper-V Network Adapter(Ethernet): Inbound packets with errors",0.00,0,"2025-04-16 11:30:00",Normal
+tallyserver2019,"Interface Microsoft Hyper-V Network Adapter(Ethernet): Bits received",38742.97,344217,"2025-04-11 08:30:00",Anomaly
+INTEGRITY,"Interface Intel(R) Ethernet 10G X710 rNDC(NIC2): Inbound packets discarded",0.00,0,"2025-04-16 11:30:00",Normal
+INTEGRITY,"Interface Intel(R) Ethernet 10G X710 rNDC(NIC2): Inbound packets with errors",0.00,0,"2025-04-16 11:30:00",Normal
+INTEGRITY,"Interface Intel(R) Ethernet 10G X710 rNDC(NIC2): Bits received",0.00,0,"2025-04-16 11:30:00",Normal
+INTEGRITY,"Interface Intel(R) Ethernet Converged Network Adapter X710 #2(SLOT 1 Port 2): Inbound packets discarded",0.00,0,"2025-04-16 11:30:00",Normal
+INTEGRITY,"Interface Intel(R) Ethernet Converged Network Adapter X710 #2(SLOT 1 Port 2): Inbound packets with errors",0.00,0,"2025-04-16 11:30:00",Normal
+INTEGRITY,"Interface Intel(R) Ethernet Converged Network Adapter X710 #2(SLOT 1 Port 2): Bits received",0.00,0,"2025-04-16 11:30:00",Normal
+INTEGRITY,"Interface Intel(R) Gigabit 4P X710/I350 rNDC #2(NIC4): Inbound packets discarded",0.00,0,"2025-04-16 11:30:00",Normal
+INTEGRITY,"Interface Intel(R) Gigabit 4P X710/I350 rNDC #2(NIC4): Inbound packets with errors",0.00,0,"2025-04-16 11:30:00",Normal
+INTEGRITY,"Interface Intel(R) Gigabit 4P X710/I350 rNDC #2(NIC4): Bits received",13287.84,71656,"2025-04-01 17:30:00",Anomaly
+MANAGEENGINEAPP,"Interface Amazon Elastic Network Adapter(Ethernet 3): Inbound packets discarded",0.00,0,"2025-04-16 11:30:00",Normal
+MANAGEENGINEAPP,"Interface Amazon Elastic Network Adapter(Ethernet 3): Inbound packets with errors",0.00,0,"2025-04-16 11:30:00",Normal
+MANAGEENGINEAPP,"Interface Amazon Elastic Network Adapter(Ethernet 3): Bits received",163054.32,18916181,"2025-04-15 09:30:00",Anomaly
+INTEGRITY,"Interface Intel(R) Ethernet Converged Network Adapter X710(SLOT 1 Port 1): Inbound packets discarded",0.00,0,"2025-04-16 11:30:00",Normal
+INTEGRITY,"Interface Intel(R) Ethernet Converged Network Adapter X710(SLOT 1 Port 1): Inbound packets with errors",0.00,0,"2025-04-16 11:30:00",Normal
+INTEGRITY,"Interface Intel(R) Ethernet Converged Network Adapter X710(SLOT 1 Port 1): Bits received",0.00,0,"2025-04-16 11:30:00",Normal
+INTEGRITY,"Interface Intel(R) Gigabit 4P X710/I350 rNDC(NIC3): Inbound packets discarded",0.00,0,"2025-04-16 11:30:00",Normal
+INTEGRITY,"Interface Intel(R) Gigabit 4P X710/I350 rNDC(NIC3): Inbound packets with errors",0.00,0,"2025-04-16 11:30:00",Normal
+INTEGRITY,"Interface Intel(R) Gigabit 4P X710/I350 rNDC(NIC3): Bits received",103209.53,2328066,"2025-04-03 17:30:00",Anomaly
+INTEGRITY,"Interface Intel(R) Ethernet 10G 4P X710/I350 rNDC(NIC1): Inbound packets discarded",0.00,0,"2025-04-16 11:30:00",Normal
+INTEGRITY,"Interface Intel(R) Ethernet 10G 4P X710/I350 rNDC(NIC1): Inbound packets with errors",0.00,0,"2025-04-16 11:30:00",Normal
+INTEGRITY,"Interface Intel(R) Ethernet 10G 4P X710/I350 rNDC(NIC1): Bits received",0.00,0,"2025-04-16 11:30:00",Normal
+Checkpoint_firewall_Thane,"Interface LAN2(): Bits received",605872.42,16721824,"2025-04-04 11:30:00",Anomaly
+Checkpoint_firewall_Thane,"Interface LAN5(): Bits received",2710.94,37666,"2025-04-05 14:30:00",Anomaly
+Checkpoint_firewall_Thane,"Interface lo(): Bits received",143827.04,240878,"2025-04-16 11:30:00",Anomaly
+Checkpoint_firewall_Thane,"Interface WAN16(): Bits received",206218.82,5081303,"2025-04-03 10:30:00",Anomaly
+Checkpoint_firewall_Thane,"Interface maas_tunnel(): Bits received",1292.91,3500,"2025-04-16 11:30:00",Anomaly
+Checkpoint_firewall_Thane,"Interface eth0(): Bits received",851823.08,17431297,"2025-04-04 11:30:00",Anomaly
+Checkpoint_firewall_Thane,"Interface eth1(): Bits received",0.00,0,"2025-04-16 11:30:00",Normal
+Checkpoint_firewall_Thane,"Interface WAN(): Bits received",3777316.19,47590912,"2025-04-07 10:30:00",Anomaly

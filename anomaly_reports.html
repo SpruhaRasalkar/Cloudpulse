@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anomaly Dashboard</title>
+    <!-- Bootstrap CSS from a reliable CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f4f6f8;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            margin-top: 60px;
+            padding: 20px;
+        }
+        .header-title {
+            color: #2e3b4e;
+            font-weight: bold;
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 30px;
+        }
+        .card {
+            background-color: #ffffff;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            text-decoration: none;
+            color: inherit;
+            margin: 10px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+            text-decoration: none;
+            color: inherit;
+        }
+        .card img {
+            display: block;
+            margin: 0 auto;
+            width: 60px;
+            height: 60px;
+            margin-top: 10px;
+        }
+        .card-title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #2e3b4e;
+            margin-top: 10px;
+        }
+        .card-text {
+            color: #6c757d;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        /* Spinner styles */
+        .spinner-wrapper {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            display: none; /* Hidden by default */
+        }
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Loading Spinner -->
+    <div class="spinner-wrapper" id="spinner">
+        <div class="spinner"></div>
+    </div>
+    
+    <div class="container">
+        <h1 class="header-title">Anomaly Dashboard</h1>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <a href="network.php" class="card text-center p-4">
+                    <img src="logos/network.png" alt="network icon">
+                    <h5 class="card-title">Network Anomaly</h5>
+                    <p class="card-text">View detailed network analysis.</p>
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="Mem_Util.php" class="card text-center p-4">
+                    <img src="logos/ram.png" alt="Memory Icon">
+                    <h5 class="card-title">Memory Utilization</h5>
+                    <p class="card-text">Monitor memory consumption across systems.</p>
+                </a>
+            </div>
+        </div>
+    </div>

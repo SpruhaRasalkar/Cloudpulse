@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reports Dashboard</title>
+    <!-- Bootstrap CSS from a reliable CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f4f6f8;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            margin-top: 60px;
+            padding: 20px;
+        }
+        .header-title {
+            color: #2e3b4e;
+            font-weight: bold;
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 30px;
+        }
+        .card {
+            background-color: #ffffff;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+            text-decoration: none;
+            color: inherit;
+            margin: 10px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+            text-decoration: none;
+            color: inherit;
+        }
+        .card img {
+            display: block;
+            margin: 0 auto;
+            width: 60px;
+            height: 60px;
+            margin-top: 10px;
+        }
+        .card-title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #2e3b4e;
+            margin-top: 10px;
+        }
+        .card-text {
+            color: #6c757d;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        /* Spinner styles */
+        .spinner-wrapper {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            display: none; /* Hidden by default */
+        }
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Loading Spinner -->
+<div class="spinner-wrapper" id="spinner">
+    <div class="spinner"></div>
+</div>
+
+<div class="container">
+    <h1 class="header-title">Reports Dashboard</h1>
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <a href="disk_util.php" class="card text-center p-4">
+                <img src="logos/ssd.png" alt="Disk Icon">
+                <h5 class="card-title">Disk Utilization</h5>
+                <p class="card-text">View detailed disk usage analysis.</p>
+            </a>
+        </div>
+        <div class="col-md-4 mb-4">
+            <a href="Mem_Util.php" class="card text-center p-4">
+                <img src="logos/ram.png" alt="Memory Icon">
+                <h5 class="card-title">Memory Utilization</h5>
+                <p class="card-text">Monitor memory consumption across systems.</p>
+            </a>
+        </div>
+        <div class="col-md-4 mb-4">
+            <a href="Cpu_Util.php" class="card text-center p-4">
+                <img src="logos/cpu_util.png" alt="CPU Icon">
+                <h5 class="card-title">CPU Utilization</h5>
+                <p class="card-text">Analyze CPU usage and performance metrics.</p>
+            </a>
+        </div>
+        <div class="col-md-4 mb-4">
+            <a href="cpuload.php" class="card text-center p-4">
+                <img src="logos/cpu_load.png" alt="CPU Load Icon">
+                <h5 class="card-title">CPU Load</h5>
+                <p class="card-text">Check CPU load levels in real-time.</p>
+            </a>
+        </div>
+        <div class="col-md-4 mb-4">
+            <a href="Host_avail.php" class="card text-center p-4">
+                <img src="logos/cloud-server.png" alt="Host Icon">
+                <h5 class="card-title">Host Availability</h5>
+                <p class="card-text">Review uptime and availability of hosts.</p>
+            </a>
+        </div>
+        <div class="col-md-4 mb-4">
+            <a href="RequestCount.php" class="card text-center p-4">
+                <img src="logos/request.png" alt="IIS Request Count Icon">
+                <h5 class="card-title">Request Count on IIS</h5>
+                <p class="card-text">Monitor the number of requests handled by IIS.</p>
+            </a>
+        </div>
+       
+        <div class="col-md-4 mb-4">
+            <a href="host_itemwise_avail.php" class="card text-center p-4">
+                <img src="logos/host_item_wise.png" alt="Host Item Wise Availability">
+                <h5 class="card-title">Host Item Wise Availability</h5>
+                <p class="card-text">Check item-wise availability for hosts.</p>
+            </a>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+            <a href="interface_traff.php" class="card text-center p-4">
+                <img src="logos/interface_traffic.png" alt="Interface Traffic (Traffic In)">
+                <h5 class="card-title">Interface Traffic (Traffic In)</h5>
+                <p class="card-text">Analyze incoming traffic on network interfaces.</p>
+            </a>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <a href="host_health_summary.php" class="card text-center p-4">
+                <img src="logos/host_health.png" alt="Host Health Summary">
+                <h5 class="card-title">Host Health Summary</h5>
+                <p class="card-text">View health status of all hosts in your network.</p>
+            </a>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <a href="host_alert_report.php" class="card text-center p-4">
+                <img src="logos/host_alert.png" alt="Host Alert">
+                <h5 class="card-title">Host Alert</h5>
+                <p class="card-text">Monitor alerts and notifications for hosts.</p>
+            </a>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <a href="custom_sla_report.php" class="card text-center p-4">
+                <img src="logos/custom_sla.png" alt="Custom SLA">
+                <h5 class="card-title">Custom SLA</h5>
+                <p class="card-text">Track Service Level Agreements for custom services.</p>
+            </a>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <a href="discovery_report.php" class="card text-center p-4">
+                <img src="logos/discovery.png" alt="Discovery">
+                <h5 class="card-title">Discovery</h5>
+                <p class="card-text">View the discovered devices and network elements.</p>
+            </a>
+        </div>
+        <!-- New card for Host Inventory -->
+        <div class="col-md-4 mb-4">
+            <a href="inventory.php" class="card text-center p-4" id="host-inventory-link">
+                <img src="logos/inventory.png" alt="Host Inventory Icon">
+                <h5 class="card-title">Host Inventory</h5>
+                <p class="card-text">Manage and view the inventory of network hosts.</p>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Optional Bootstrap JS for basic interactivity -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    // Function to show the spinner and redirect to the target page
+    document.getElementById("host-inventory-link").addEventListener("click", function(event) {
+        event.preventDefault(); // Prevent the default behavior of the link
+        // Show the loading spinner
+        document.getElementById("spinner").style.display = "flex";
+        
+        // Redirect after a slight delay to simulate buffering
+        setTimeout(function() {
+            window.location.href = "inventory.php"; // Change to your desired page
+        }, 1000); // Delay of 1 second before redirection
+    });
+</script>
+
+</body>
+</html>
